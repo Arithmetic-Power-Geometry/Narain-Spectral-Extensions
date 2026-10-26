@@ -1,0 +1,6 @@
+# P20 verified literature and source-claim matrix
+Primary publisher cross-check on 2026-10-26: Groot Nibbelink, Stefan; Vaudrevange, Patrick K. S. (2017), *T-duality orbifolds of heterotic Narain compactifications*, Journal of High Energy Physics 2017, article 030, DOI 10.1007/JHEP04(2017)030. Publisher: https://link.springer.com/article/10.1007/JHEP04%282017%29030 . This record already exists in reference/references.bib and reference/verification_register.tsv under GrootNibbelinkVaudrevange2017Duality. No duplicate appended.
+
+Claim supported by publisher: Narain generalized vielbein, metric, B field, Wilson lines and T-duality group generators are treated systematically. This supports established O(d,d) framework and kills any novelty claim based solely on introducing a generalized metric or integral B shifts. The paper does not, from abstract alone, verify or refute the specific integral projector equivalence here; independent detailed theorem-level comparison remains necessary.
+
+Other existing verified references include Narain (1986), Maharana–Schwarz (1993) and Dymarsky–Shapere (2021). Their preexisting verification status is not a new publisher recheck in P20. No new verified citation appended.
