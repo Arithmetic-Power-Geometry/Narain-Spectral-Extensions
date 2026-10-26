@@ -1,0 +1,20 @@
+{
+  "dimension": 6,
+  "H": "5/2",
+  "L": "89/110",
+  "U": "131/110",
+  "beta": "27/182",
+  "n_norm_sq_max": 3,
+  "m_norm_sq_max": 5,
+  "n_candidates": 233,
+  "m_candidates": 797,
+  "states_each": 289,
+  "first": "3573739389131/1786726163119",
+  "first_coeff": {
+    "1": 2,
+    "-1": -2
+  },
+  "elapsed_seconds": 23.708,
+  "python": "3.13.5",
+  "gate": "FINITE_WINDOW_ONLY"
+}
