@@ -17,14 +17,16 @@ for d in range(1,5):
  assert all((D*x).q==1 for x in Q)
  assert D<=bound
  T=d*h
+ # ||B||_2 <= max row/col norm <= T/q
  L=s.Rational(1,q*T**(d-1)); U=s.Rational(T,q);beta=s.Rational(T,q)
  assert (G-L*s.eye(d)).is_positive_semidefinite and (U*s.eye(d)-G).is_positive_semidefinite
  H=s.Rational(3)
  ncap=int(s.floor(H/L));mcap=int(s.floor(2*H*U+2*beta**2*H/L))
  checked=0; within=0
+ # bounded 3^(2d) charge test, including difficult non-diagonal examples
  for charge in itertools.product((-1,0,1),repeat=2*d):
   v=s.Matrix(charge); e=(v.T*Q*v)[0];assert (D*e).q==1
-  m=charge[:d];n=charge[d:]
+  m=charge[:d];n=charge[d:];
   if e<=H:
    within+=1;assert sum(z*z for z in n)<=ncap and sum(z*z for z in m)<=mcap
   checked+=1
