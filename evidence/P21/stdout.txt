@@ -1,0 +1,222 @@
+case 3 gap 15336/98369999 margin 581846/582071
+case 4 gap 5324/20446075 margin 4715663/9436650
+case 6 gap 115293091512/301956721567111 margin 1786152037333/3573452326238
+{
+  "python": "3.13.5",
+  "cases": [
+    {
+      "d": 3,
+      "H": "3",
+      "r": "1/1000000000000",
+      "L_box": "8899999999967/11000000000000",
+      "U_box": "13100000000033/11000000000000",
+      "beta_box": "13500000000273/91000000000000",
+      "ncap": 3,
+      "mcap": 5,
+      "n_candidates": 27,
+      "m_candidates": 57,
+      "positive_spin_states_in_window": 42,
+      "witness_energy": "1164367/582071",
+      "spin": 1,
+      "witness_charges": [
+        {
+          "m": [
+            0,
+            0,
+            -1
+          ],
+          "n": [
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "m": [
+            0,
+            0,
+            1
+          ],
+          "n": [
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "opposite_same_energy_count": 0,
+      "nearest_opposite_energy": "4016191/2007551",
+      "nearest_opposite_charge": {
+        "m": [
+          -1,
+          0,
+          0
+        ],
+        "n": [
+          1,
+          0,
+          0
+        ]
+      },
+      "opposite_gap": "15336/98369999",
+      "H_margin": "581846/582071",
+      "uniform_energy_drift_bound": "3/6250000000",
+      "twice_drift_less_than_gap": true,
+      "drift_less_than_H_margin": true,
+      "opposite_spin_candidate_count": 270,
+      "central_witness_multiplicity": 2,
+      "forced_pair_check": true
+    },
+    {
+      "d": 4,
+      "H": "5/2",
+      "r": "1/1000000000000",
+      "L_box": "2224999999989/2750000000000",
+      "U_box": "3275000000011/2750000000000",
+      "beta_box": "3375000000091/22750000000000",
+      "ncap": 3,
+      "mcap": 4,
+      "n_candidates": 65,
+      "m_candidates": 89,
+      "positive_spin_states_in_window": 16,
+      "witness_energy": "9437981/4718325",
+      "spin": 1,
+      "witness_charges": [
+        {
+          "m": [
+            0,
+            0,
+            0,
+            -1
+          ],
+          "n": [
+            0,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "m": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "n": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "opposite_same_energy_count": 0,
+      "nearest_opposite_energy": "4908389/2453529",
+      "nearest_opposite_charge": {
+        "m": [
+          -1,
+          0,
+          0,
+          0
+        ],
+        "n": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "opposite_gap": "5324/20446075",
+      "H_margin": "4715663/9436650",
+      "uniform_energy_drift_bound": "1/1562500000",
+      "twice_drift_less_than_gap": true,
+      "drift_less_than_H_margin": true,
+      "opposite_spin_candidate_count": 648,
+      "central_witness_multiplicity": 2,
+      "forced_pair_check": true
+    },
+    {
+      "d": 6,
+      "H": "5/2",
+      "r": "1/1000000000000",
+      "L_box": "4449999999967/5500000000000",
+      "U_box": "6550000000033/5500000000000",
+      "beta_box": "6750000000273/45500000000000",
+      "ncap": 3,
+      "mcap": 4,
+      "n_candidates": 233,
+      "m_candidates": 485,
+      "positive_spin_states_in_window": 24,
+      "witness_energy": "3573739389131/1786726163119",
+      "spin": 1,
+      "witness_charges": [
+        {
+          "m": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1
+          ],
+          "n": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1
+          ]
+        },
+        {
+          "m": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "n": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ],
+      "opposite_same_energy_count": 0,
+      "nearest_opposite_energy": "2090232698459/1044832946599",
+      "nearest_opposite_charge": {
+        "m": [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "n": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "opposite_gap": "115293091512/301956721567111",
+      "H_margin": "1786152037333/3573452326238",
+      "uniform_energy_drift_bound": "3/3125000000",
+      "twice_drift_less_than_gap": true,
+      "drift_less_than_H_margin": true,
+      "opposite_spin_candidate_count": 9372,
+      "central_witness_multiplicity": 2,
+      "forced_pair_check": true
+    }
+  ],
+  "runtime_seconds": 5.47
+}
