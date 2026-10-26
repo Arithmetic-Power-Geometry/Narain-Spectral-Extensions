@@ -1,0 +1,21 @@
+{
+  "gate": "REVISE_NOT_VERIFIED",
+  "original_checker_count": 9,
+  "verbatim_executed_in_this_session": 0,
+  "workflow_committed": true,
+  "workflow_completed": false,
+  "workflow_artifact_obtained": false,
+  "original_sources_inspected": true,
+  "prior_P10_register_repair": {
+    "rows": 12,
+    "columns": 6,
+    "bib_keys": 12
+  },
+  "outstanding": [
+    "retrieve completed CI run logs and artifact",
+    "compare all original checker JSON outputs",
+    "verify P02 complete polynomial classification",
+    "verify Paper I interval certificate from full assets",
+    "independently verify primary bibliographic metadata"
+  ]
+}
