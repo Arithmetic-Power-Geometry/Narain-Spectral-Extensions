@@ -1,0 +1,106 @@
+{
+  "T3": {
+    "charpoly": "lambda*(98369999*lambda**2 + 1104125)/98369999",
+    "Q_positive": true,
+    "JQJ_eq_Qinv": true,
+    "projection_e1": [
+      "169/365",
+      "0",
+      "182/365"
+    ]
+  },
+  "T4": {
+    "charpoly": "(351652043925*lambda**4 + 5547197084*lambda**2 + 9486400)/351652043925",
+    "Q_positive": true,
+    "JQJ_eq_Qinv": true
+  },
+  "B_shift_control": {
+    "duality_preserves_J": true,
+    "conjugate_Q": true,
+    "projector_original": {
+      "idempotent": true,
+      "J_self_adjoint": true,
+      "Q_self_adjoint": true,
+      "rank": 2,
+      "integral": true
+    },
+    "projector_transformed": {
+      "idempotent": true,
+      "J_self_adjoint": true,
+      "Q_self_adjoint": true,
+      "rank": 2,
+      "integral": true
+    },
+    "P2": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "Q2_cross_coupling": true,
+    "Bprime": [
+      [
+        "0",
+        "-1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "elapsed_s": 0.074,
+  "python": "3.13.5",
+  "sympy": "1.14.0"
+}
