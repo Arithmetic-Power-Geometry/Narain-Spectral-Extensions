@@ -1,0 +1,10 @@
+# P15 — Exact coupled T6 first spin-resolved discrepancy
+Date 2026-10-26. Executed locally with Python 3.13.5 and fractions.Fraction, exit code 0, elapsed 23.708 seconds. Actual stdout is saved in stdout.json and stderr was empty. The script is the exact code executed. Source SHA256: 6463aeb8fab3d1e13d0ad17e9dfc51ae1b5b2f8145eed5c19c1f7d07f1f5b2d7. Stdout SHA256: 26e4c7dfdce45ebea3ae4dd9cb314be54a050167af6c4eb760e4daa6819992af.
+
+For d=6, G_ii=1, G_{i,i+1}=1/(10+i), B_{i,i+1}=1/(13+i) with antisymmetry, and H=5/2. Gershgorin bounds L=89/110 and U=131/110, beta=27/182 bounds ||B||_2. For E=(m+Bn)^T G^-1(m+Bn)+n^T G n<=H, ||n||²<=H/L and ||m||<=sqrt(HU)+beta sqrt(H/L). Since U/L<4, ||m||² < HU+beta²H/L+4beta H. Therefore integer ||n||²<=3 and ||m||²<=5; the executed loops enumerate all 233 and 797 such integer candidates, respectively. These bounds ensure completeness for the entire E<=5/2 window.
+
+Exact enumeration found 289 states per sign. The first nonzero coefficient in the difference of spin-refined multiplicities for +B minus -B is at E=3573739389131/1786726163119, with +2 at spin +1 and -2 at spin -1. The script asserts the parity identity for all observed levels. It is the first within the certified finite window; since every lower E is inside that window, it is the global first zero-mode difference for these exact fixed G,B backgrounds, subject to the displayed completeness argument.
+
+P06's earlier negative E<=2 window is consistent with this first discrepancy. No independent second implementation of the T6 exact enumeration was completed; therefore an independent-checker gate remains pending. No complete O(6,6;Z) decomposition test, physical string-state analysis, perturbation stability or novelty theorem was performed. No new literature metadata verified; no references appended.
+
+Gate: PASS for a single exact finite-window certificate, REVISE for independent reproduction, full T-duality classification and Q1 novelty. Next P16: finite inverse-spectral rigidity and necessary/sufficient distinguishability, with adversarial counterexamples and verified literature.
