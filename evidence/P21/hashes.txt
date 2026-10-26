@@ -1,0 +1,6 @@
+Local check.py SHA256 a3262fa6e251ad1c1430e2e944d8268e422abac6e6bc6889d8034d45b0466d13
+Local stdout.txt SHA256 a547e83a2cf53bdbb7f9e6e40534305509dd4efd9c3f3c51aa4b8546b19a1e89
+Local stderr.txt SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Local classify.py SHA256 e273eca7f2cdeb43c8302df189e23b2b761bac216c81d03dacc14b9f7d9508fa
+Local classify_stdout.json SHA256 8d7fcb367f34c23c56b6a1e4a19820bef200a1e6ed9d55b7d37e7701d9860928
+Python 3.13.5, main exit 0, classifier exit 0. Main 14.38s wall, 102672 KB max RSS; classifier 7.11s wall, 96012 KB max RSS.
