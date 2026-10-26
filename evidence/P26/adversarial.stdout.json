@@ -17,14 +17,14 @@
     {
       "d": 3,
       "transformation": "factorized",
-      "det": 1,
+      "det": -1,
       "energy_invariant": true,
       "J_invariant": true
     },
     {
       "d": 3,
       "transformation": "composed",
-      "det": 1,
+      "det": -1,
       "energy_invariant": true,
       "J_invariant": true
     },
@@ -45,14 +45,14 @@
     {
       "d": 4,
       "transformation": "factorized",
-      "det": 1,
+      "det": -1,
       "energy_invariant": true,
       "J_invariant": true
     },
     {
       "d": 4,
       "transformation": "composed",
-      "det": 1,
+      "det": -1,
       "energy_invariant": true,
       "J_invariant": true
     },
@@ -73,14 +73,14 @@
     {
       "d": 6,
       "transformation": "factorized",
-      "det": 1,
+      "det": -1,
       "energy_invariant": true,
       "J_invariant": true
     },
     {
       "d": 6,
       "transformation": "composed",
-      "det": 1,
+      "det": -1,
       "energy_invariant": true,
       "J_invariant": true
     },
