@@ -1,0 +1,30 @@
+{
+  "python": "3.13.16 (main, Oct  1 2026, 02:37:54) [GCC 13.3.0]",
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "runs": [
+    {
+      "name": "P22_original",
+      "path": "evidence/P22/check.py",
+      "source_sha256": "79ddaf8d258b4ff69827857d61ce790a5e07404c230357e123c53a46f2f355e3",
+      "stdout_sha256": "60c973be6675882eeb0f83f72df3b6cac7dcce74226332bd8363a2687e3e6951",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0,
+      "elapsed_seconds": 0.548,
+      "semantic_json_equal": false
+    },
+    {
+      "name": "P23_independent",
+      "path": "evidence/P23/independent.py",
+      "source_sha256": "bdafcf7a7578828d93cbdfd8c0a562694601118b282febb2f7360597d1978970",
+      "stdout_sha256": "1c959d38e7540e715ee0394bd8ccb8674f404ee065d59210795f86658887d0f1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exit_code": 0,
+      "elapsed_seconds": 3.71,
+      "semantic_json_equal": false
+    }
+  ],
+  "failed": [
+    "P22_original",
+    "P23_independent"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "d": 1,
+      "q": 3,
+      "h": 4,
+      "D": 9,
+      "universal_Dmax": 12,
+      "charges_tested": 9,
+      "denominator_pass": true,
+      "B_sign_spin_flip_pass": true,
+      "different_spin_refined_within_box": false
+    },
+    {
+      "d": 2,
+      "q": 3,
+      "h": 4,
+      "D": 27,
+      "universal_Dmax": 96,
+      "charges_tested": 81,
+      "denominator_pass": true,
+      "B_sign_spin_flip_pass": true,
+      "different_spin_refined_within_box": false
+    },
+    {
+      "d": 3,
+      "q": 3,
+      "h": 4,
+      "D": 81,
+      "universal_Dmax": 1152,
+      "charges_tested": 729,
+      "denominator_pass": true,
+      "B_sign_spin_flip_pass": true,
+      "different_spin_refined_within_box": false
+    }
+  ],
+  "factorized_T_duality_d1": {
+    "G": "2/3",
+    "dual_G": "3/2",
+    "tested": 49,
+    "pass": true
+  },
+  "runtime_s": 0.5176,
+  "python": "3.13.16"
+}
