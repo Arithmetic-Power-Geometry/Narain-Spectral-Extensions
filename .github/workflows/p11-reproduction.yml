@@ -1,0 +1,52 @@
+name: P11 reproducibility
+on:
+  push:
+    paths:
+      - '.github/workflows/p11-reproduction.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run original checkers
+        run: |
+          mkdir -p evidence/P11/run
+          python3 - <<'PY'
+          import subprocess,sys,json,pathlib,hashlib,time,csv,re
+          root=pathlib.Path('.')
+          files=['evidence/P01/check_metadata.py','evidence/P02/independent_checker.py']+[f'evidence/P{i:02d}/check.py' for i in range(3,10)]
+          output=root/'evidence/P11/run'
+          records=[]
+          for file in files:
+              p=root/file
+              row={'phase':file.split('/')[1],'path':file,'exists':p.exists()}
+              if p.exists():
+                  row['sha256']=hashlib.sha256(p.read_bytes()).hexdigest()
+                  t=time.monotonic()
+                  try:
+                      run=subprocess.run([sys.executable,str(p)],capture_output=True,text=True,timeout=240)
+                      row['exit_code']=run.returncode
+                      row['seconds']=round(time.monotonic()-t,3)
+                      (output/(row['phase']+'.stdout')).write_text(run.stdout)
+                      (output/(row['phase']+'.stderr')).write_text(run.stderr)
+                      try:
+                          actual=json.loads(run.stdout)
+                          expected=p.parent/'results.json'
+                          row['json_match']=actual==json.loads(expected.read_text()) if expected.exists() else None
+                      except Exception as e:row['parse_error']=str(e)
+                  except Exception as e:row['execution_error']=str(e)
+              records.append(row)
+              print(json.dumps(row),flush=True)
+          bib=(root/'reference/references.bib').read_text()
+          keys=re.findall(r'@article\{([^,]+),',bib)
+          rows=list(csv.DictReader((root/'reference/verification_register.tsv').open(),delimiter='\t'))
+          integrity={'bib_count':len(keys),'register_count':len(rows),'keys_match':set(keys)=={r['key'] for r in rows},'columns_valid':all(None not in r for r in rows)}
+          (output/'matrix.json').write_text(json.dumps({'checks':records,'bibliography':integrity},indent=2))
+          print('INTEGRITY',json.dumps(integrity))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: p11-reproduction
+          path: evidence/P11/run/
