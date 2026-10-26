@@ -1,0 +1,62 @@
+[
+  {
+    "path": "$.checked_bib_records",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.date",
+    "kind": "missing_actual"
+  },
+  {
+    "path": "$.gate",
+    "kind": "missing_actual"
+  },
+  {
+    "path": "$.independent_enumeration",
+    "kind": "missing_actual"
+  },
+  {
+    "path": "$.negative",
+    "kind": "missing_actual"
+  },
+  {
+    "path": "$.next",
+    "kind": "missing_actual"
+  },
+  {
+    "path": "$.novelty_proven",
+    "kind": "missing_actual"
+  },
+  {
+    "path": "$.pdf_binary_committed",
+    "kind": "missing_actual"
+  },
+  {
+    "path": "$.positive",
+    "kind": "missing_actual"
+  },
+  {
+    "path": "$.prompt",
+    "kind": "missing_actual"
+  },
+  {
+    "path": "$.scope",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.source_manuscripts",
+    "kind": "missing_actual"
+  },
+  {
+    "path": "$.status",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.verified_keys",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.verified_primary_sources",
+    "kind": "missing_actual"
+  }
+]

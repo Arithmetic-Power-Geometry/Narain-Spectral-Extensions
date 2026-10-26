@@ -1,0 +1,82 @@
+[
+  {
+    "path": "$.cases[0].B",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[0].B_infinity_bound",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[0].G",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[0].lower_eigen_bound",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[0].unrefined_equal",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[0].upper_eigen_bound",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[1].B",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[1].B_infinity_bound",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[1].G",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[1].lower_eigen_bound",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[1].unrefined_equal",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[1].upper_eigen_bound",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[2].B",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[2].B_infinity_bound",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[2].G",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[2].lower_eigen_bound",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[2].unrefined_equal",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.cases[2].upper_eigen_bound",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.limitation",
+    "kind": "missing_expected"
+  },
+  {
+    "path": "$.limitations",
+    "kind": "missing_actual"
+  }
+]

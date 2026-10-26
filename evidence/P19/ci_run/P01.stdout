@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checked_bib_records": 13,
+  "verified_keys": [
+    "Narain1986NewHeterotic",
+    "MaloneyWitten2020Averaging",
+    "DymarskyShapere2021Quantum",
+    "DymarskyShapere2021Solutions",
+    "DattaEtAl2022Flavor",
+    "Yahagi2022NarainCodes",
+    "AndoKawabataNishioka2026Gauging",
+    "GrootNibbelinkVaudrevange2017Duality",
+    "MahmoodReidEdwards2021TorusBundles",
+    "MaharanaSchwarz1993Noncompact",
+    "GasperiniVeneziano1993PreBigBang",
+    "GasperiniVeneziano2023Nonsingular",
+    "HenrikssonKakkarMcPeak2023HigherGenus"
+  ],
+  "scope": "metadata register and audit text only"
+}

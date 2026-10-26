@@ -1,0 +1,8 @@
+[
+  {
+    "path": "$",
+    "kind": "type",
+    "expected_type": "dict",
+    "actual_type": "list"
+  }
+]
