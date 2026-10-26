@@ -1,0 +1,60 @@
+{
+  "checker": "independent sympy generalized-metric block construction",
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "cases": [
+    {
+      "d": 1,
+      "q": 3,
+      "h": 6,
+      "det_A": 3,
+      "denominator_D": 9,
+      "Dmax": 18,
+      "charges": 9,
+      "within_H": 9,
+      "ncap": 9,
+      "mcap": 84,
+      "pass": true
+    },
+    {
+      "d": 2,
+      "q": 3,
+      "h": 6,
+      "det_A": 8,
+      "denominator_D": 24,
+      "Dmax": 216,
+      "charges": 81,
+      "within_H": 43,
+      "ncap": 108,
+      "mcap": 3480,
+      "pass": true
+    },
+    {
+      "d": 3,
+      "q": 3,
+      "h": 6,
+      "det_A": 21,
+      "denominator_D": 63,
+      "Dmax": 3888,
+      "charges": 729,
+      "within_H": 119,
+      "ncap": 2916,
+      "mcap": 209988,
+      "pass": true
+    },
+    {
+      "d": 4,
+      "q": 3,
+      "h": 6,
+      "det_A": 55,
+      "denominator_D": 165,
+      "Dmax": 93312,
+      "charges": 6561,
+      "within_H": 301,
+      "ncap": 124416,
+      "mcap": 15925296,
+      "pass": true
+    }
+  ],
+  "elapsed_seconds": 3.848
+}
