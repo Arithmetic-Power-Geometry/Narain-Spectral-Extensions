@@ -24,8 +24,8 @@ def run(d,h):
  l=1-r;u=1+r;beta=max(sum(abs(b[i][j]) for j in range(d)) for i in range(d))
  assert u<4*l
  nb=int(h/l);mb=next(k for k in range(1,40) if Q(k)>h*u+beta*beta*h/l+4*beta*h)
- nv=[v for v in product(range(-nb,nb+1),repeat=d) if sum(t*t for t in v)<=nb]
- mv=[v for v in product(range(-mb,mb+1),repeat=d) if sum(t*t for t in v)<=mb]
+ nv=[v for v in product(range(-int(nb**0.5)-1,int(nb**0.5)+2),repeat=d) if sum(t*t for t in v)<=nb]
+ mv=[v for v in product(range(-int(mb**0.5)-1,int(mb**0.5)+2),repeat=d) if sum(t*t for t in v)<=mb]
  gi=inverse(g);cs={1:Counter(),-1:Counter()}
  for n in nv:
   w=quadratic(n,g)
