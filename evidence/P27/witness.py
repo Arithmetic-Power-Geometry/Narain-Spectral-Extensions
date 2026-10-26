@@ -1,4 +1,5 @@
 import sympy as s,json,time,sys
+from hashlib import sha256
 start=time.perf_counter()
 rows=[]
 for d in [2,3,4,5,6,8,10,12,16,20,30]:
