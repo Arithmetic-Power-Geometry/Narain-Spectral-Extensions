@@ -1,0 +1,3 @@
+# Verified reference protocol
+Store verified literature only. Never infer bibliographic metadata from a manuscript's numbered citation without checking its primary source. Keep references.bib append-only; keep verification_register.tsv append-only. New references must have primary-source verification and complete available metadata (authors, title, year, venue, volume/issue, pages/article number, DOI, stable URL, access date). Missing fields must be recorded as missing, never fabricated. Corrections must be recorded as new superseding verification entries; preserve old entries.
+The two uploaded manuscripts are primary research inputs, not independently verified published bibliography records. Their exact PDFs are identified by hashes in evidence/P00/README.md.
