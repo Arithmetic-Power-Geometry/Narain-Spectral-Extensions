@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "d": 3,
+      "box": "[-1,1]^(2d)",
+      "sample_minimum": "585096/582071",
+      "vectors_below_twice_sample_minimum": 40,
+      "span_rank": 6,
+      "ambient_rank": 6,
+      "J_graph_component_ranks": [
+        6
+      ],
+      "global_minimum_certified": false
+    },
+    {
+      "d": 4,
+      "box": "[-1,1]^(2d)",
+      "sample_minimum": "4739621/4718325",
+      "vectors_below_twice_sample_minimum": 56,
+      "span_rank": 8,
+      "ambient_rank": 8,
+      "J_graph_component_ranks": [
+        8
+      ],
+      "global_minimum_certified": false
+    }
+  ],
+  "runtime_seconds": 1.1037
+}
