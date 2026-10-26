@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "d": 3,
+      "H": "3",
+      "L": "89/110",
+      "U": "131/110",
+      "beta": "27/182",
+      "n_norm2_bound": 3,
+      "m_norm2_bound": 6,
+      "n_candidates": 27,
+      "m_candidates": 81,
+      "states_each": 125,
+      "first": "1164367/582071",
+      "first_coeff": {
+        "1": 2,
+        "-1": -2
+      },
+      "signed_permutation_B_flip": 0
+    },
+    {
+      "d": 4,
+      "H": "5/2",
+      "L": "89/110",
+      "U": "131/110",
+      "beta": "27/182",
+      "n_norm2_bound": 3,
+      "m_norm2_bound": 5,
+      "n_candidates": 65,
+      "m_candidates": 137,
+      "states_each": 129,
+      "first": "9437981/4718325",
+      "first_coeff": {
+        "1": 2,
+        "-1": -2
+      },
+      "signed_permutation_B_flip": 0
+    },
+    {
+      "d": 6,
+      "H": "2",
+      "L": "89/110",
+      "U": "131/110",
+      "beta": "27/182",
+      "n_norm2_bound": 2,
+      "m_norm2_bound": 4,
+      "n_candidates": 73,
+      "m_candidates": 485,
+      "states_each": 65,
+      "first": null,
+      "first_coeff": {},
+      "signed_permutation_B_flip": "not checked"
+    }
+  ],
+  "gate": "REVISE"
+}
