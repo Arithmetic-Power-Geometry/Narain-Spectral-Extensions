@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "dimension": 3,
+      "central": {
+        "n_count": 27,
+        "m_count": 81,
+        "nb": 3,
+        "mb": 6,
+        "L": "89/110",
+        "U": "131/110",
+        "beta": "27/182",
+        "states_each": 125
+      },
+      "central_first": "1164367/582071",
+      "lower_central_asymmetry": [],
+      "counterexample": null
+    },
+    {
+      "dimension": 4,
+      "central": {
+        "n_count": 65,
+        "m_count": 137,
+        "nb": 3,
+        "mb": 5,
+        "L": "89/110",
+        "U": "131/110",
+        "beta": "27/182",
+        "states_each": 129
+      },
+      "central_first": "9437981/4718325",
+      "lower_central_asymmetry": [],
+      "counterexample": null
+    }
+  ],
+  "python": "3.13.5"
+}
