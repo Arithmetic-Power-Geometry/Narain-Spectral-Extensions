@@ -6,6 +6,7 @@ def matmul(a,b):return sum(x*y for x,y in zip(a,b))
 def dot(a,Q,b):return sum(a[i]*Q[i][j]*b[j] for i in range(len(a)) for j in range(len(b)))
 def run(Q,J):
  N=len(Q); M=max(Q[i][i] for i in range(N)); D=max(sum(abs(x) for x in row) for row in Q)
+ # conservative bound from rational matrix inverse: lambda_min >= 1/||Q^-1||infty
  import sympy as s
  A=s.Matrix([[s.Rational(x.numerator,x.denominator) for x in row] for row in Q]); ai=A.inv();lower=F(1,1)/max(sum(abs(F(int(x.p),int(x.q))) for x in ai.row(i)) for i in range(N))
  R=int((M/lower)**F(1,2)) if False else 1
