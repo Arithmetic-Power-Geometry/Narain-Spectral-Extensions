@@ -1,0 +1,9 @@
+claim	prior_art	verdict	rationale
+Generic Narain partition function	MaloneyWitten2020Averaging	NO-GO	Established partition functions
+Generic refined Narain partition function	DattaEtAl2022Flavor	NO-GO	Flavored partition functions established
+Physically distinct isospectral CFTs	DymarskyShapere2021Solutions	NO-GO	Existing examples
+Product T6 inheritance	Narain1986NewHeterotic	NO-GO	Elementary direct-product construction
+All-orders formal oscillator multiplication	DattaEtAl2022Flavor	NO-GO	Common graded-factor algebra
+Projected physical first discrepancy	DattaEtAl2022Flavor	REVISE	Precise observable and physical constraints absent
+Coupled higher-dimensional first-discrepancy theorem	DymarskyShapere2021Quantum	CONDITIONAL-GO	Requires novelty kill test and independent exact proof
+Cosmological Big Bang stability	Narain1986NewHeterotic	NO-GO	No dynamics or observational model
