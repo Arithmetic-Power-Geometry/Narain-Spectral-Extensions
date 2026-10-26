@@ -1,0 +1,19 @@
+{
+  "method": "integer_scaled_one_sign_spin_reflection",
+  "dimension": 6,
+  "H": "5/2",
+  "denominator": 1.5355708084835371e+26,
+  "candidate_n": 233,
+  "candidate_m": 797,
+  "states_plus": 289,
+  "first": "3573739389131/1786726163119",
+  "first_coeff": {
+    "1": 2,
+    "-1": -2
+  },
+  "elapsed_seconds": 0.405,
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "norm_sq_n": 3,
+  "norm_sq_m": 5
+}
