@@ -1,0 +1,56 @@
+[
+  {
+    "phase": "P01",
+    "source": "check_metadata.py",
+    "status": "STATIC_LINT_REPAIRED",
+    "finding": "Five malformed TSV records corrected; original preserved. Script not executed verbatim."
+  },
+  {
+    "phase": "P02",
+    "source": "independent_checker.py",
+    "status": "PARTIAL_INDEPENDENT_PASS",
+    "finding": "Fresh base reimplementation confirms 729,39,3313/1325 and signed coefficients. Full polynomial classification not freshly rerun."
+  },
+  {
+    "phase": "P03",
+    "source": "check.py",
+    "status": "NOT_FRESHLY_EXECUTED",
+    "finding": "Formal oscillator lemma plausible; all 9 levels not rerun in P10."
+  },
+  {
+    "phase": "P04",
+    "source": "check.py",
+    "status": "NOT_FRESHLY_EXECUTED",
+    "finding": "Parity identity algebraic; full BRST and modular S not independently proven."
+  },
+  {
+    "phase": "P05",
+    "source": "check.py",
+    "status": "NOT_FRESHLY_EXECUTED",
+    "finding": "Product convolution elementary; exact T3/T4/T6 script not rerun."
+  },
+  {
+    "phase": "P06",
+    "source": "check.py",
+    "status": "CROSSCHECKED_BY_P10",
+    "finding": "P10 coupled exact E<=2 T6 reproduces 65; T3/T4 higher cutoff outputs consistent."
+  },
+  {
+    "phase": "P07",
+    "source": "check.py",
+    "status": "INDEPENDENT_PASS",
+    "finding": "Fresh rational T3,T4,T6 results match stored first thresholds, counts and coefficients."
+  },
+  {
+    "phase": "P08",
+    "source": "check.py",
+    "status": "INDEPENDENT_PASS",
+    "finding": "Five exact cases match stored P08 first thresholds, counts and gaps; interval theorem remains open."
+  },
+  {
+    "phase": "P09",
+    "source": "check.py",
+    "status": "LOGIC_ONLY_NOT_FRESHLY_EXECUTED",
+    "finding": "Toy quadratic countermodels not physical action; dynamics NO-GO."
+  }
+]
