@@ -1,0 +1,38 @@
+{
+  "status": "PASS_FINITE_EXACT_ENUMERATION_NOT_GLOBAL_DUALITY_PROOF",
+  "cases": [
+    {
+      "dimension": 3,
+      "n_vectors": 19,
+      "m_vectors": 33,
+      "states_each": 29,
+      "first_discrepancy_E_le_2": null,
+      "first_difference": {},
+      "complete_through_E": "2"
+    },
+    {
+      "dimension": 4,
+      "n_vectors": 33,
+      "m_vectors": 89,
+      "states_each": 41,
+      "first_discrepancy_E_le_2": null,
+      "first_difference": {},
+      "complete_through_E": "2"
+    },
+    {
+      "dimension": 6,
+      "n_vectors": 73,
+      "m_vectors": 485,
+      "states_each": 65,
+      "first_discrepancy_E_le_2": null,
+      "first_difference": {},
+      "complete_through_E": "2"
+    }
+  ],
+  "limitations": [
+    "No spectral discrepancy through E<=2",
+    "No O(d,d;Z) nonduality certificate",
+    "No integral indecomposability certificate",
+    "No perturbation interval certificate"
+  ]
+}
