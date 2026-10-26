@@ -1,0 +1,24 @@
+name: P18 original-checker clean-room audit
+on:
+  push:
+    paths:
+      - '.github/workflows/p18-cleanroom.yml'
+      - 'evidence/P18/run_originals.py'
+  workflow_dispatch:
+jobs:
+  original-checkers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Run all original sources verbatim
+        run: python evidence/P18/run_originals.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: p18-original-checkers
+          path: evidence/P18/ci_run/
+          retention-days: 90
