@@ -1,0 +1,9 @@
+# P29 refinement: Narain hyperbolic product versus simultaneous orthogonal splitting
+
+The exact graph algorithm in the P29 report decides and constructs the finest integral decomposition orthogonal for BOTH Q and J. A **Narain product** additionally requires a proper nonzero direct summand with balanced J-signature (k,k), 1<=k<d, equivalent to a hyperbolic even unimodular U^k sublattice in the even unimodular Narain lattice. The graph components are integral orthogonal summands, but individual components need not be balanced: a positive-definite even unimodular component such as E8 is a potential arithmetic type.
+
+**Finite terminating Narain-product decision step:** For each graph component L_i, compute the exact Gram matrix of J on an integral basis and its signature (p_i,q_i). Enumerate all nonempty proper subsets S of components and test sum_{i in S}p_i=sum_{i in S}q_i=k with 1<=k<d. If such S exists, the corresponding integral projector is a Narain hyperbolic product; otherwise there is no nontrivial Narain product. The complementary summand automatically has signature (d-k,d-k). Because the ambient J is even unimodular and L=direct_sum L_i is J-orthogonal, each component has an even unimodular J restriction; no further gluing is required. The subset enumeration costs O(2^c c) arithmetic operations for c components after signature computation, or a pseudo-polynomial dynamic programme in d.
+
+**Important:** This does NOT change the P29 novelty NO-GO. It corrects a possible overinterpretation of the basic graph algorithm and makes the Narain-specific decision explicit.
+
+**Reproducibility note:** The original local algorithm.py and independent.py, plus their exact stdout, have byte-identical Git blob SHA values at GitHub readback. The P29 workflow has been committed but its actual execution must still be confirmed; workflow definition alone is not proof of CI success.
