@@ -1,0 +1,18 @@
+{
+  "phase": "P02",
+  "exit_code": 0,
+  "elapsed_seconds": 4.184122741,
+  "source_bytes": 3034,
+  "source_sha256": "48767666983c64a1e11efd7863fae0a79b7ebce627607e094648a101fcd10493",
+  "stdout_sha256": "1cd74dbc6e97a6d162164008709895ea71e1c4d8559cc7ac214250da8be65bc7",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "classification": {
+    "strict": 570,
+    "at_zero": 2,
+    "at_half": 2,
+    "identical": 2
+  },
+  "first_threshold": "3313/1325",
+  "paper_I_68_row_certificate": "UNVERIFIED",
+  "nine_originals_clean_checkout": "UNVERIFIED"
+}
