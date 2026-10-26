@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/p23-audit.yml'
+      - 'evidence/P23/independent.py'
   workflow_dispatch:
 permissions:
   contents: write
