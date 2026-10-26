@@ -1,0 +1,13 @@
+key	verified_on	primary_source_url	metadata_checked	status	notes
+Narain1986NewHeterotic	2026-10-26	Narain1986NewHeterotic	https://www.sciencedirect.com/science/article/pii/0370269386906829	author,title,year,venue,volume,pages,DOI	VERIFIED	publisher abstract and INSPIRE confirm pages
+MaloneyWitten2020Averaging	2026-10-26	MaloneyWitten2020Averaging	https://link.springer.com/article/10.1007/JHEP10(2020)187	authors,title,year,venue,issue,article number,DOI	VERIFIED	publisher version of record
+DymarskyShapere2021Quantum	2026-10-26	DymarskyShapere2021Quantum	https://link.springer.com/article/10.1007/JHEP03(2021)160	authors,title,year,venue,issue,article number,DOI	VERIFIED	publisher version of record
+DymarskyShapere2021Solutions	2026-10-26	DymarskyShapere2021Solutions	https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.161602	authors,title,year,venue,volume,issue,article number,DOI	VERIFIED	APS publisher
+DattaEtAl2022Flavor	2026-10-26	DattaEtAl2022Flavor	https://link.springer.com/article/10.1007/JHEP05(2022)090	five authors,title,year,venue,issue,article number,DOI	VERIFIED	publisher version of record
+Yahagi2022NarainCodes	2026-10-26	https://link.springer.com/article/10.1007/JHEP08(2022)058	author,title,year,venue,issue,article number,DOI	VERIFIED	Publisher version of record
+AndoKawabataNishioka2026Gauging	2026-10-26	https://link.springer.com/article/10.1007/JHEP02(2026)058	authors,title,year,venue,issue,article number,DOI	VERIFIED	Publisher version of record
+GrootNibbelinkVaudrevange2017Duality	2026-10-26	https://link.springer.com/article/10.1007/JHEP04(2017)030	authors,title,year,venue,issue,article number,DOI	VERIFIED	Publisher version of record
+MahmoodReidEdwards2021TorusBundles	2026-10-26	https://link.springer.com/article/10.1007/JHEP05(2021)003	authors,title,year,venue,issue,article number,DOI	VERIFIED	Publisher version of record
+MaharanaSchwarz1993Noncompact	2026-10-26	https://www.sciencedirect.com/science/article/pii/0550321393903875	authors,title,year,journal,volume,issue,pages,DOI	VERIFIED	Publisher record; INSPIRE corroboration
+GasperiniVeneziano1993PreBigBang	2026-10-26	https://cds.cern.ch/record/242133	authors,title,year,journal,volume,issue,pages,DOI	VERIFIED	CERN and publisher record
+GasperiniVeneziano2023Nonsingular	2026-10-26	https://link.springer.com/article/10.1007/JHEP07(2023)144	authors,title,year,journal,issue,article number,DOI	VERIFIED	Publisher version of record
