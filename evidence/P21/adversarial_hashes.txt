@@ -1,0 +1,3 @@
+Local adversarial.py SHA256 afa9f0d4559a4510c73b0d88e9206d45102cb05f1db298429921de4e38cafde1
+Local adversarial_stdout.json SHA256 54e23449b7d5ce9dc1c329d0b639f8a81ecc6fbdf21832701475a6227751b850
+Exit 0, stderr empty. NOTE: B_zero_outside_box shows separation of two selected charges only, NOT spectral asymmetry; full spin symmetry is restored at B=0 by (m,n)->(-m,n).
