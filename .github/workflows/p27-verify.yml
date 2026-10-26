@@ -1,0 +1,54 @@
+name: P27 dimension-uniform witness audit
+on:
+  push:
+    paths:
+      - '.github/workflows/p27-verify.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install sympy==1.14.0
+      - name: Execute pinned source and capture all evidence
+        shell: bash
+        run: |
+          mkdir -p evidence/P27/ci_run
+          set +e
+          /usr/bin/time -f 'wall=%e rss_kb=%M exit=%x' -o evidence/P27/ci_run/resource.txt python evidence/P27/witness.py > evidence/P27/ci_run/stdout.json 2> evidence/P27/ci_run/stderr.txt
+          ec=$?
+          set -e
+          python - <<'PY'
+          import pathlib,json,hashlib,os
+          root=pathlib.Path('evidence/P27/ci_run')
+          expected=json.loads(pathlib.Path('evidence/P27/witness.stdout').read_text())
+          actual=json.loads((root/'stdout.json').read_text())
+          actual.pop('runtime_seconds',None);expected.pop('runtime_seconds',None)
+          ok=actual==expected
+          record={'checkout_sha':os.environ.get('GITHUB_SHA'),'mathematical_output_equal':ok,'files':{p:hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest() for p in ['evidence/P27/witness.py','evidence/P27/ci_run/stdout.json','evidence/P27/ci_run/stderr.txt']}}
+          (root/'matrix.json').write_text(json.dumps(record,indent=2)+'\n')
+          if not ok:raise SystemExit(1)
+          PY
+          test "$ec" -eq 0
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: p27-exact-witness-evidence
+          path: evidence/P27/ci_run/
+      - name: Preserve CI evidence
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/P27/ci_run/
+          if ! git diff --cached --quiet; then
+            git commit -m 'P27 CI: preserve raw pinned witness outputs'
+            git push
+          fi
