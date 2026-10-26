@@ -1,0 +1,107 @@
+{
+  "tests": [
+    {
+      "d": 3,
+      "transformation": "Bshift",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 3,
+      "transformation": "GL",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 3,
+      "transformation": "factorized",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 3,
+      "transformation": "composed",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 4,
+      "transformation": "Bshift",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 4,
+      "transformation": "GL",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 4,
+      "transformation": "factorized",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 4,
+      "transformation": "composed",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 6,
+      "transformation": "Bshift",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 6,
+      "transformation": "GL",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 6,
+      "transformation": "factorized",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 6,
+      "transformation": "composed",
+      "det": 1,
+      "energy_invariant": true,
+      "J_invariant": true
+    },
+    {
+      "d": 3,
+      "transformation": "decomposable_negative_control",
+      "integral_projector": true,
+      "short_graph_connected": false
+    },
+    {
+      "d": 4,
+      "transformation": "decomposable_negative_control",
+      "integral_projector": true,
+      "short_graph_connected": false
+    },
+    {
+      "d": 6,
+      "transformation": "decomposable_negative_control",
+      "integral_projector": true,
+      "short_graph_connected": false
+    }
+  ],
+  "seconds": 0.0332
+}
