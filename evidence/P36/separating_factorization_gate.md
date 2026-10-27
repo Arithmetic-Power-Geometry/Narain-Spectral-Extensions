@@ -1,0 +1,13 @@
+# P36: exact separating-limit audit (2026-10-27)
+
+Primary source: Henriksson, Kakkar and McPeak, Narain CFTs and quantum codes at higher genus, JHEP04(2023)011, equations (3.37)-(3.48) and section 4.4, https://doi.org/10.1007/JHEP04(2023)011. The source has a likely typo in equation (3.46) that is resolved by the explicit (3.47) formula.
+
+Use P33 seven-vertex graph pair and P35 ten-variable genus-two refined polynomial. Enumerate 128^2=16384 codeword pairs for each graph. Exact difference: 756 genus-two polynomial monomials differ. Apply equation (3.48) as a product of independent genus-one variable sets (three variables for each torus), with y_i mapping to x_a x'_b. The resulting six-variable factorization polynomials are identical with 256 monomials. Thus the difference vanishes on the separating locus.
+
+Failed attempt: an earlier script incorrectly counted 9 joint-pair symbol classes instead of expanding the product into six independent genus-one exponents. It failed with AssertionError, exit 1, wall 1.17s, RSS 96396 KB. Failed source SHA256 c7d4ea40244e6235f5f53839d1398c7ad6aa003f9545eeb5a6140adae1715b14; stderr SHA256 68a05dca3a38cf83f94f160438387ffee4e6d756323f2027e5946a8e34bd3933; empty stdout SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855; resource SHA256 192932fac3dbb70b307f17be55f5219cde172b35e783e575b4498d23541d33ce.
+
+Corrected executed source: /mnt/data/p36/check.py; SHA256 565e74cf6c13b624475b7ba81e7a87d517aee7173a269e690b7dfa0059f9f7c5. stdout SHA256 1a22c1d77189d79138516d7f2bb623abf8ebb84000a42dc70878c6345e4e18d2. stderr empty SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855. resource SHA256 fe660b9b4b7d3b57c2a04540744ef3ebb99bf68b81bcc1f414e8482f2a137b37. Exit 0; wall 1.67s; peak RSS 96264 KB. stdout JSON: {"different_monomials": 756, "genus_two_refined_equal": false, "pair_count_each": 16384, "physical_theta_nonzero_certified": false, "separating_factorization_equal": true, "separating_monomials": 256}.
+
+Mathematical limit: difference of formal genus-two polynomials plus vanishing on separating locus does NOT establish nonzero analytic theta substitution on nonseparating period matrices. No rigorous Fourier coefficient or certified analytic nonzero interval was obtained. No novelty: published 2023 work studies this distinction. P27-P29 CI pinned matrices remain unverified.
+
+Gate: GO separating factorization and formal inequality. REVISE actual nonseparating theta nonvanishing, independent second implementation, CI. NO-GO new theorem, novel counterexample, breakthrough, manuscript. Next phase only after independent physical theta-map certificate.
