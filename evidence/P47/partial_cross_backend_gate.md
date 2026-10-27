@@ -1,0 +1,7 @@
+# P47 partial cross-backend gate (2026-10-27)
+
+Five completed comparisons between P44 mpmath.iv and P46 Decimal backends agree: identical n1 INCONCLUSIVE, distinct n2 POSITIVE, relabelled n3 INCONCLUSIVE, distinct n4 POSITIVE, separating n7 INCONCLUSIVE. The full batch exceeded its 200-second limit before completing the nonseparating, near-separating, and ill-conditioned comparisons. These are UNTESTED in this batch, not passes. A separate P44 n7 nonseparating run returned CERTIFIED_NEGATIVE, consistent with earlier P46, but is not counted as a completed P47 paired test.
+
+Local driver: /mnt/data/p47/cross_backend.py; SHA256 d06f1e936edde7994784378e74445d1797ccbbbd1ad69dc7662cc69e718a73fc. Partial stdout SHA256 e0d0178a465eede7ddff45caef71dbc09fa246567a14308f4f232010b4632561. Stderr SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855. Raw logs and driver are local, not uploaded. No complete resource record.
+
+GO: five paired controls. REVISE: split long-running tests and capture per-case timeout, memory, independent proofs and benchmarks. NO-GO: claim of eight passes, novelty or Q1 manuscript. Next P47b: individually bounded near-separating and ill-conditioned tests.
