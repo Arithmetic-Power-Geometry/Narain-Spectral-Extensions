@@ -1,0 +1,13 @@
+Local exact execution (Python 3.13.5)
+labelled graphs=64
+unlabelled graphs=11
+complete Pauli-composition enumerator collisions=0
+exit=0
+wall_seconds=1.09
+peak_rss_kb=95628
+stdout_elapsed_seconds=0.002124
+source_sha256=4319294348841890858393ba0306327a4611637315c17f43c5b5a49d0a493b21
+stdout_sha256=fc6fd9c98a7d925c35d1c5b1f4bfd33d8dad7273a6d31ae3c260f10c3bd5f0df
+stderr_sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+resource_sha256=9f93dbc5f2100f91660b3530c52cf0d787905205890ce7c36b6159dbad444e22
+The committed clean script is not byte-identical to the locally executed source.
