@@ -1,4 +1,0 @@
-{"d": 3, "minimum": "585096/582071", "two_minimum": "1170192/582071", "nshort": 40, "connected": true, "span_rank": 6, "charges": 728, "denominator": 21641399780, "elapsed": 0.009}
-{"d": 4, "minimum": "4739621/4718325", "two_minimum": "9479242/4718325", "nshort": 56, "connected": true, "span_rank": 8, "charges": 6560, "denominator": 15472689932700, "elapsed": 0.06}
-{"d": 6, "minimum": "1792977755011/1786726163119", "two_minimum": "3585955510022/1786726163119", "nshort": 76, "connected": true, "span_rank": 12, "charges": 531440, "denominator": 781222430038429579200, "elapsed": 11.856}
-TOTAL 11.856

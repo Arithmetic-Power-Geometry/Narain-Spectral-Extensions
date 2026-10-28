@@ -1,3 +1,0 @@
-# P66 gate
-
-2026-10-28. A parameter-region sufficient theorem was derived and tested locally. Bounds: 0<=alpha<1/4, 0<beta<=gamma<1, 2gamma^2<1-2alpha, (1-beta)^2+gamma^2<1-4alpha^2. No converse or originality claim. Exact rational tests: 84 parameter cases, dimensions 2 through 8, all passed. G=I and B=0 is decomposable. Q1 novelty remains unverified. Decision: theorem GO, Q1 readiness REVISE. P61/P63 prior STOP records unchanged.

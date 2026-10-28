@@ -1,4 +1,0 @@
-independent_audit.py SHA256 bf6b44f2456783a9d585d7da0f148086efe69175d1ac2cf7f0eedbd47bc38fa1
-independent_stdout.json SHA256 829a7fe5525f1c5a9028c4dca5af35ba19e71e183a48facea9cc9c6994820daf
-independent_stderr.txt SHA256 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-Python 3.13.5; SymPy 1.14.0; exit 0; runtime 0.639 s

@@ -1,3 +1,0 @@
-Local executed source SHA256 1986180ba0efdd2f20703bbb6ded5ff8bbad00217a543328bc58e885b123bc2f
-Local stdout SHA256 25e2f913978c933d8c3b3ebda5034dc9d2432145fa3b7697a041d0786811ccd6
-Python 3.13.5; SymPy 1.14.0; exit code 0; elapsed 0.405 sec. Hashes refer to the local executed files, not to GitHub blob SHA.

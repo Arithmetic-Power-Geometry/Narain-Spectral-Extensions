@@ -1,3 +1,0 @@
-# P15 coupled T6 first discrepancy
-
-Independent exact-rational Python enumeration at H=5/2 found first spin-refined discrepancy at 3573739389131/1786726163119 with signed coefficients +2 at s=+1 and -2 at s=-1. 233 winding candidates, 797 momentum candidates, 289 states per sign. Python 3.13.5, 23.708 seconds. Norm bounds L=89/110, U=131/110, beta=27/182. This is a finite-window mathematical certificate, not O(6,6;Z) nonduality or physical string inequivalence. Full code and stdout are preserved in accompanying P15 artifacts. Gate REVISE for publication novelty, PASS for the exact finite witness. Next P16 inverse rigidity.

@@ -1,1 +1,0 @@
-{"environment": {"flint": {"installed": false}, "mpmath": {"installed": true, "version": "1.3.0"}, "networkx": {"installed": true, "version": "3.6.1"}}, "flint_baseline_available": false, "matched_complete_observable_implemented": false, "performance_claim_supported": false, "phase": "P63", "publication_gate": "NO-GO"}

@@ -1,4 +1,0 @@
-a76b67bd262abb368505de314d95fc95d8c5d616a5870e41219998b67d7fbe6a  witness.py (local version with unused hashlib import)
-87a903bc797c8f828643d48a421ca1bfcd8ae319988c2859591940ae7c681b1f  witness.stdout
-3f223cffbe88cc892b049268aa34f69bf50711527dcc78f7e87dd877c182fe4d  witness.resource
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  witness.stderr
